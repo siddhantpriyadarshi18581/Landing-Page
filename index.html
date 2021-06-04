@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhant Fitness and Care</title>
+    <link rel="stylesheet" href="Project1/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+</head>
+<style>
+    /* CSS Reset */
+    body {
+        color: wheat;
+        margin: 0px;
+        padding: 0px;
+        background: url('Gym.jpg');
+        /* height: 4544px; */
+        font-family: 'Baloo Bhai 2', cursive;
+        ;
+
+
+    }
+
+    .left {
+        display: inline-block;
+        border: 2px solid red;
+        position: absolute;
+        left: 24px;
+        top: 20px;
+        line-height: 12px;
+        font-size: 18px;
+    }
+
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        border: 2px solid green;
+    }
+
+    .right {
+        display: inline-block;
+        border: 2px solid yellow;
+        position: absolute;
+        right: 38px;
+        top: 23px;
+    }
+
+    .navbar {
+        color: white;
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left img {
+        width: 80px;
+    }
+
+    .left {
+        text-align: center;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 3px 4px;
+        border: 2px solid grey;
+        font-size: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(51, 50, 50);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px 35px;
+        width: 43%;
+        border-radius: 8px;
+    }
+
+    .formgroup input {
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        width: 256px;
+        padding: 12px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 17px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- leftbox for logo -->
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div>Siddhant Fitness and Care</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href='#'>Home</a></li>
+                <li><a href='#'>About Us</a></li>
+                <li><a href='#'>Map</a></li>
+                <li><a href='#'>Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Ramgarh Cantt now</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="Name" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="Name" placeholder="Enter your age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="Name" placeholder="Enter your gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="Name" placeholder="Enter your locality">
+            </div>
+            <div>
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
